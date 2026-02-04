@@ -3,7 +3,7 @@ RUN apt update && apt upgrade -y
 RUN apt install git -y
 COPY requirements.txt /requirements.txt
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /rexbots
-WORKDIR /rexbots
-COPY . /rexbots
+RUN mkdir /CantarellaBots
+WORKDIR /CantarellaBots
+COPY . /CantarellaBots
 CMD ["python", "bot.py"]
