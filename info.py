@@ -10,8 +10,8 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')
 # 👑 __Owner & Admins__
 ADMINS = [int(i) for i in environ.get('ADMINS', '').split()]
 AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "").split()]
-OWNER_USERNAME = environ.get("OWNER_USERNAME", 'CantarellaBots')
-BOT_USERNAME = environ.get("BOT_USERNAME", 'CantarellaBots')
+OWNER_USERNAME = environ.get("OWNER_USERNAME", '')
+BOT_USERNAME = environ.get("BOT_USERNAME", '')
 
 # 🔗 __Channel & Support Links__
 CHANNEL = environ.get('CHANNEL', 'https://t.me/cantarellabots')
@@ -20,11 +20,11 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/cantarellabots')
 HOW_TO_OPEN = environ.get('HOW_TO_OPEN', 'https://t.me/cantarellabots')
 
 # 📢 __Log Channels__
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", ''))
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-'))
-PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", ''))
-VERIFIED_LOG = int(environ.get('VERIFIED_LOG', ''))
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", ""))
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '0'))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '0'))
+PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '0'))
+VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '0'))
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "0"))
 
 # ✅ __Feature Toggles__
 VERIFY = False  # Enable user verification
