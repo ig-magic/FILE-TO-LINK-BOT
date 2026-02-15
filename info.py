@@ -2,7 +2,7 @@ from os import environ, getenv
 from Script import script
 
 # 🚀 __Bot Configuration__
-SESSION = environ.get('SESSION', 'RexBots')  # Session name
+SESSION = environ.get('SESSION', 'magic')  # Session name
 API_ID = int(environ.get('API_ID', ''))
 API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
@@ -14,10 +14,10 @@ OWNER_USERNAME = environ.get("OWNER_USERNAME", '')
 BOT_USERNAME = environ.get("BOT_USERNAME", '')
 
 # 🔗 __Channel & Support Links__
-CHANNEL = environ.get('CHANNEL', 'https://t.me/cantarellabots')
-SUPPORT = environ.get('SUPPORT', 'https://t.me/cantarellabots')
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/cantarellabots')
-HOW_TO_OPEN = environ.get('HOW_TO_OPEN', 'https://t.me/cantarellabots')
+CHANNEL = environ.get('CHANNEL', 'https://t.me/MAGICxBots')
+SUPPORT = environ.get('SUPPORT', 'https://t.me/MAGICxBots')
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/MAGICxBots')
+HOW_TO_OPEN = environ.get('HOW_TO_OPEN', 'https://t.me/MAGICxBots')
 
 # 📢 __Log Channels__
 BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '0'))
@@ -43,7 +43,7 @@ SHORTLINK_API = environ.get('SHORTLINK_API', '')
 
 # 💾 __Database Configuration__
 DB_URL = environ.get('DATABASE_URI', "")
-DB_NAME = environ.get('DATABASE_NAME', "rexlinkbot")
+DB_NAME = environ.get('DATABASE_NAME', "magic")
 
 # 📸 __Media & Images__
 QR_CODE = environ.get('QR_CODE', 'https://ibb.co/mVkSySr7')
@@ -67,7 +67,7 @@ VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 60))  # Hours
 # ⚙️ __Worker & App Config__
 WORKERS = int(environ.get('WORKERS', 10))
 MULTI_CLIENT = False
-NAME = environ.get('name', 'CantarellaBots')
+NAME = environ.get('name', 'MAGICxBots')
 
 # 🌐 __Web Server__
 ON_HEROKU = 'DYNO' in environ
